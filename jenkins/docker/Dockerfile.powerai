@@ -7,7 +7,7 @@
 # changes.
 
 # Base Dockerfile for gRPC dev images
-FROM ppc64le/ubuntu:latest
+FROM nvidia/cuda-ppc64le:8.0-cudnn5-devel-ubuntu16.04
 
 # Install dependencies.  We start with the basic ones require to build openmpi
 RUN apt-get update && apt-get install -y \
