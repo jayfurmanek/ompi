@@ -35,7 +35,7 @@ RUN apt-get update && apt-get install -y \
   time \
   wget \
   maven \
-  openjdk-8-jdk \
+  default-jdk \
   python-setuptools \
   python-pip \
   python-dev \
